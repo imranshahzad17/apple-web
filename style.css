@@ -1,0 +1,305 @@
+body{
+    overflow-x: hidden; 
+    width: 100vw ;
+    height:100vh ;
+}
+.navbar{
+    background-color:rgba(0, 0, 0, 0.7); 
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 99;
+}
+.nav-link{
+    color: #d1d1d1ff !important;
+    list-style: none !important;
+    font-size: 14px;  
+}
+.navbar-toggler{
+    background-color: #d1d1d1ff !important;
+}
+.product a{
+    text-decoration: none !important;
+    color: white;
+    font-size: 25px !important;
+}
+.Quick-link a{
+    color: white;
+    font-size: 15px;
+}
+.shop-spec a{
+    color: white;
+    font-size: 15px;
+}
+.dropdown-menu {
+    background-color: #121212ff;
+    width:100vh;
+}
+.dropdown-menu .content{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.row ul> li > a{
+    text-decoration: none;
+}
+.card-0{
+     background-image: url(https://www.apple.com/v/home/bk/images/heroes/macbook-air-m3/hero_macbook_air_m3_announce__fk6hkws5232i_large.jpg);
+    background-position: center;
+    background-size:3008px 736px; 
+    width: 100%;
+    height: 80vh;
+    
+}
+.card{
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    background-image: url(https://www.apple.com/v/home/bk/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_large_2x.jpg);
+    background-position: center;
+    background-size:3008px 736px; 
+}
+.text-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    color: #fff;
+}
+.link a{
+    text-decoration: none;
+    color: rgb(26, 141, 242);
+}
+
+.link a:hover{
+    border-bottom: 1px solid rgb(26, 141, 242);
+}
+.card-2{
+    margin-top: 10px;
+    background-image: url(https://www.apple.com/v/home/bk/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large_2x.jpg);
+    background-size:3008px 820px;
+    background-repeat: no-repeat;
+}
+.text-card-2{
+    color: #333;
+}
+.card-3{
+    margin-top: 10px;
+    background-image: url(https://www.apple.com/v/home/bk/images/heroes/apple-vision-pro/hero_apple_vision_pro_avail__ecthwv10twsy_large_2x.jpg);
+    background-size:3008px 820px;
+     background-repeat: no-repeat;
+}
+.card-3 .text-card{
+    margin: 350px 0px;
+}
+.card-3 .text-card p{
+    color: #333;
+    font-weight: 400;
+}
+.text-card h3{
+    color: #333;
+    font-weight: 700;
+}
+.card-4{
+    display: flex;
+
+}
+.card-4-1{
+    background-size: 1262px 665px;
+    background-image: url(https://www.apple.com/v/home/bk/images/promos/apple-watch-series-9/promo_apple_watch_series_9_order__b3u85rm9zf6u_large_2x.jpg);
+}
+.card-4-2{
+    background-size: 1262px 665px;
+    background-repeat: no-repeat;
+    background-image: url(https://www.apple.com/v/home/bk/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_large_2x.jpg); 
+}
+.card-4-2 .text-card h4{
+    color:#333;
+    font-weight: 600;
+}
+.card-4-2 .text-card p{
+    color:#333 !important; 
+}
+.card-4 h4{
+    font-size: 50px;
+}
+.card-4 .text-card{
+    color:white;  
+}
+.card-4 .text-card p{
+color: #b51414ff;
+font-size: 20px;
+}
+.card-5{
+    display: flex;
+}
+.card-5-1{
+    background-image: url(https://www.apple.com/v/home/bk/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg);
+    background-size: 1262px 665px;
+    background-repeat: no-repeat;
+}
+.card-5-1 .text-card h4{
+    color:#333;
+    font-weight: 600;
+    font-size: 60px;
+}
+.card-5-1 .text-card p{
+    color:#333;
+}
+.card-5-2{
+    background-image: url(https://www.apple.com/v/home/bk/images/promos/airpods-pro/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
+    background-size: 1262px 665px;
+    background-repeat: no-repeat;
+}
+.card-5-2 .text-card h4{
+    color:white;
+    font-weight: 600;
+    font-size: 60px;
+}
+.card-5-2 .text-card p{
+    color:white;
+}
+.card-6{
+    display: flex;
+}
+.card-6-1{
+    background-image: url(https://www.apple.com/v/home/bk/images/promos/apple-card/tile__cauwwcyyn9hy_large.jpg);
+    background-size: 1262px 665px;
+    background-repeat: no-repeat;
+}
+.card-6-1 .text-card h4{
+    color:#333;
+    font-weight: 600;
+    font-size: 60px;
+}
+.card-6-1 .text-card p{
+    color: #333;
+}
+.card-6-2{
+    background-image: url(https://www.apple.com/v/home/bk/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_large.jpg);
+    background-size: 1262px 665px;
+    background-repeat: no-repeat;
+}
+.card-6-2 .text-card h4{
+    color:#333;
+    font-weight: 600;
+    font-size: 50px;
+}
+.card-6-2 .text-card p{
+    color:#333;
+}
+@media (max-width:500px){
+.card-4{
+     flex-direction: column;
+}
+.card-4-1{
+     width: 100%;
+}
+.card-4-2{
+     width: 100%;
+}
+.card-5{
+    flex-direction: column;
+}
+.card-5-1{
+    width: 100%;
+}
+.card-5-2{
+    width: 100%;
+}
+.card-6{
+    flex-direction: column;
+}
+.card-6-1{
+    width: 100%;
+}
+.card-6-2{
+    width: 100%;
+}
+}
+@media (max-width:500px){
+.card-4{
+     flex-direction: column;
+}
+.card-4-1{
+     width: 100%;
+}
+.card-4-2{
+     width: 100%;
+}
+.card-5{
+    flex-direction: column;
+}
+.card-5-1{
+    width: 100%;
+}
+.card-5-2{
+    width: 100%;
+}
+.card-6{
+    flex-direction: column;
+}
+.card-6-1{
+    width: 100%;
+}
+.card-6-2{
+    width: 100%;
+}
+}
+@media (max-width:800px){
+    .card-4{
+         flex-direction: column;
+    }
+    .card-4-1{
+         width: 100%;
+    }
+    .card-4-2{
+         width: 100%;
+    }
+    .card-5{
+        flex-direction: column;
+    }
+    .card-5-1{
+        width: 100%;
+    }
+    .card-5-2{
+        width: 100%;
+    }
+    .card-6{
+        flex-direction: column;
+    }
+    .card-6-1{
+        width: 100%;
+    }
+    .card-6-2{
+        width: 100%;
+    }
+    }
+.p1{
+    color: #6b6b6bff;
+    font-size:13px ;
+  
+}
+.footer{
+    margin: 30px  0px;
+}
+.btn-link{
+    font-size: 12px;
+}
+.btn-link:hover{
+    color:#333;
+    text-decoration: underline;
+}
+h6{
+    font-size:12px ;
+    font-weight: 500;
+}
+.p2{
+    color: #6b6b6bff;
+    font-size:12px ;
+}
